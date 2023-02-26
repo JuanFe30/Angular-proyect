@@ -1,0 +1,99 @@
+
+#seccion{
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.cards{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    height: auto; 
+}
+
+.tarjetas1{
+    width: 300px;
+    height: auto;
+    grid-column: 1/2;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas1:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+    /* font-size: 17px; */
+}
+.tarjetas2{
+    width: 300px;
+    height: auto;
+    grid-column: 2/3;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas2:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+}
+
+.tarjetas3{
+    width: 300px;
+    height: auto;
+    grid-column: 3/4;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas3:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+}
+
+.tarjetas4{
+    width: 300px;
+    height: auto;
+    grid-column: 1/2;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas4:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+}
+
+.tarjetas5{
+    width: 300px;
+    height: auto;
+    grid-column: 2/3;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas5:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+}
+
+.tarjetas6{
+    width: 300px;
+    height: auto;
+    grid-column: 3/4;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tarjetas6:hover{
+    color: aliceblue;
+    background-color: rgb(224, 19, 19);
+}
