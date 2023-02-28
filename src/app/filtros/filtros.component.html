@@ -1,0 +1,16 @@
+
+  <div class="container">
+    <h3>Modelos</h3>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <input type="text" class="form-control" name="search" placeholder="Filtrar" [(ngModel)]="filterName">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" *ngFor="let modelo of model | filter:filterName">{{modelo.name}}</li>
+        </ul>
+    </div>
+  </div>

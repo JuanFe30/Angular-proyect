@@ -27,7 +27,7 @@
 #nav ul li a{
     text-decoration: none;
     color: grey;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.8s;
 }
