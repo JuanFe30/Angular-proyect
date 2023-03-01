@@ -9,6 +9,8 @@ import { FiltrosComponent } from './filtros/filtros.component';
 import { FooterComponent } from './footer/footer.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     FilterCardsComponent,
     FiltrosComponent,
     FooterComponent,
-    FilterPipe
+    FilterPipe,
+    LoginComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,

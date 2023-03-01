@@ -1,0 +1,22 @@
+.registro{
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.registro form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registro form h2{
+
+    text-align: center;
+
+}
+
+.registro form input{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,9 @@
+
+<div class="registro">
+    <form #formSend="ngForm" (ngSubmit)="Onsubmit(formSend)">
+        <h2>Registrarse</h2>
+        <input type="text"  placeholder="Nombre" #usuario="ngModel" [(ngModel)]="login.usuario" name="usuario" class="form-control" minlength="3"/>
+        <input type="password" placeholder="Contraseña" #contrasena="ngModel" [(ngModel)]="login.contrasena" name="contrasena" class="form-control" minlength="3">
+        <button type="submit" (click)="registroExitoso($event)" [disabled]="habilitarBoton">Enviar</button>
+    </form>
+</div>
