@@ -28,6 +28,6 @@ export class LoginComponent {
   }
   
   registroExitoso(event:Event){
-    alert(`Te registraste Exitosamente`)
+    alert(`¡Informacion recopilada exitosamente!`)
   }
 }

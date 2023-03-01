@@ -11,6 +11,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
+import { FichasComponent } from './fichas/fichas.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CarruselComponent } from './carrusel/carrusel.component';
     FooterComponent,
     FilterPipe,
     LoginComponent,
-    CarruselComponent
+    CarruselComponent,
+    FichasComponent
   ],
   imports: [
     BrowserModule,

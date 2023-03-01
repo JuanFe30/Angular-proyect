@@ -1,22 +1,41 @@
 .registro{
-    height: 500px;
+    height: 400px;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
+    background-color: crimson;
 }
 
 .registro form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
-.registro form h2{
-
+.registro form h3{
+    color: aliceblue;
     text-align: center;
 
 }
 
 .registro form input{
     margin-bottom: 15px;
+}
+
+.registro form button{
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    transition: 1s;
+}
+
+.registro form button:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.banner{
+    color: antiquewhite;
+    margin: auto 0;
 }

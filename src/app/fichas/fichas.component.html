@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Los mas vendidos</h1>
+    <div class="list">
+        <ul *ngFor="let ficha of fichas" class="info">
+            <li class="title">{{ficha.nombre}}</li> <br>
+            <li><span>Velocidad</span><br> {{ficha.velocidad}}</li>
+            <li><span> Año </span><br> {{ficha.modelo}}</li>
+            <li><span>Colores disponibles</span> <br> {{ficha.Colores}}</li>
+        </ul>
+    </div>
+</div>

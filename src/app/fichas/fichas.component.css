@@ -1,0 +1,27 @@
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.info li{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: red;
+    text-transform: uppercase;
+}
+
+span{
+    color: black;
+}
